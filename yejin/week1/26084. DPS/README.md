@@ -54,8 +54,9 @@
 ## 1. collaboration에서 사용한 조합
 ![image](https://user-images.githubusercontent.com/81174840/218266026-ae3e747f-9f7f-4973-8b0c-f92683248340.png)
 
+<img src="https://user-images.githubusercontent.com/81174840/218266026-ae3e747f-9f7f-4973-8b0c-f92683248340.png" width="200" height="400"/>
 
-<img src="https://user-images.githubusercontent.com/81174840/218266026-ae3e747f-9f7f-4973-8b0c-f92683248340.png  width="100" height="100"/>
+
 
 ## 2. 키보드에서 만든 문자열을 이용해서 alpha1[]을 만들고 키보드에서 받은 N개의 문자열의 첫번째 문자만 체크해서 alpha2[]를 만든다.
 ### → 이때 같은 알파벳인 경우 alpha2[]에 존재하는 서로 다른 n개에서 alpha1[]에 존재하는 서로 다른 r개를 선택하는 방식으로 문제를 해결한다.
