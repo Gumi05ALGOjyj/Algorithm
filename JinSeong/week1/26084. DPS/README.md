@@ -40,3 +40,8 @@
 	<li>Kotlin: Long</li>
 </ul>
 
+### 알고리즘 접근 방식
+
+<p>백트래킹을 이용하여 문자열 추가 -> nCr * nCr * nCr (재귀) </br>
+r이 3이하만 나올 수 있다는 점을 이용하여 nC1 / nC2 / nC3 중에 return
+</p>
