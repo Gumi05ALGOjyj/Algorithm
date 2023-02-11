@@ -51,7 +51,7 @@
 
 # [문제를 해결하는 방법]
 
-#### 1. collaboration에서 사용한 조합
+### 1. collaboration에서 사용한 조합
 <img src="https://user-images.githubusercontent.com/81174840/218266026-ae3e747f-9f7f-4973-8b0c-f92683248340.png" width="650" height="500"/>
 
 
