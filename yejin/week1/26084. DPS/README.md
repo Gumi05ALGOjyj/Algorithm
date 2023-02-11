@@ -53,6 +53,8 @@
 
 ## 1. collaboration에서 사용한 조합
 ![image](https://user-images.githubusercontent.com/81174840/218266026-ae3e747f-9f7f-4973-8b0c-f92683248340.png){: width="60%" height="60%"}
+
+
 <img src="https://user-images.githubusercontent.com/81174840/218266026-ae3e747f-9f7f-4973-8b0c-f92683248340.png  width="100" height="100"/>
 
 ## 2. 키보드에서 만든 문자열을 이용해서 alpha1[]을 만들고 키보드에서 받은 N개의 문자열의 첫번째 문자만 체크해서 alpha2[]를 만든다.
