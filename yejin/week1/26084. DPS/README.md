@@ -1,3 +1,4 @@
+# [Silver I] DPS- 26084
 [문제 링크](https://www.acmicpc.net/problem/26084) 
 
 ### 성능 요약
