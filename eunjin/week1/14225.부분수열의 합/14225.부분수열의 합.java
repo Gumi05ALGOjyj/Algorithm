@@ -2,7 +2,6 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
-
 public class Main {
 	static int N;
 	static int inputs[];
@@ -44,6 +43,5 @@ public class Main {
 		// 선택안했을경우
 		isVisited[cnt] = false;
 		func(cnt + 1, sum);
-
 	}
 }
