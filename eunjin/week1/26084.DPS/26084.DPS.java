@@ -28,7 +28,6 @@ public class Main {
 				result*=func(inputs[i], teamName[i]);
 			}
 		}
-		
 		System.out.println(result);
 	}
 	
