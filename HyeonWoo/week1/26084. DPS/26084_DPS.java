@@ -1,7 +1,7 @@
 import java.util.*;
 import java.io.*;
 
-public class Main {
+class Solution_26084 {
     static String S[];
     static int N;
 

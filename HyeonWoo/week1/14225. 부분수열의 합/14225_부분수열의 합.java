@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 
-public class Main {
+class Solution_14225 {
     static int n;
     static int[] s;
     static boolean[] visited;
