@@ -42,4 +42,4 @@ S(2) = "m o o m o o o m o o m o o o o m o o m o o o m o o"</pre>
  문자의 길이가 s(k-1)*2 + k+3 으로 증가하는 것을 이용하여, input 값이 넘을 때 까지 길이 증가</br>
  if) 이전 사이즈의 +1번째 index는 무조건 m (moo'm'ooomoo 4번째)</br>
  else if) 현재 사이즈 - 이전 사이즈 +1번째 index는 input값 - (현재 사이즈- 이전사이즈) 로 다시 재귀 (moomooo'moo'  8~10번째)</br>
- else) o가 k+2 있는 구간은 o 리턴 (moom'ooo'moo 5~7)</p>
+ else) o가 k+2 있는 구간은 o 리턴 (moom'ooo'moo 5~7번째)</p>
