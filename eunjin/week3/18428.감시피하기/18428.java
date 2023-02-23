@@ -47,10 +47,7 @@ public class B18428_감시피하기 {
 		// ------입력 완료---------
 		putObject(0);
 
-		if (isPossible)
-			System.out.println("YES");
-		else
-			System.out.println("NO");
+		System.out.println("NO");
 	}
 
 	public static void putObject(int cnt) { // 장애물을 놓는 행위를 한다! 조하입보이~
@@ -62,7 +59,10 @@ public class B18428_감시피하기 {
 					return;
 				}
 			}
-			return;
+//			return;
+			System.out.println("YES");
+			System.exit(0);
+
 		}
 		for (int i = 0; i < N; i++) {
 			for (int j = 0; j < N; j++) {
