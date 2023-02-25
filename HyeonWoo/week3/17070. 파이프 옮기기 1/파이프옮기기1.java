@@ -12,7 +12,6 @@ public class Solution_17070 {
     static int[][] perpen = {{1, 0, 1, 0, 2}, {1, 0, 1, 1, 1}};                     // 파이프가 세로일 경우 가능한 다음 좌표 -> 세로, 대각선
     static int[][] diagonal = {{1, 1, 0, 1, 0}, {1, 1, 1, 1, 1}, {1, 1, 1, 0, 2}};  // 파이프가 대각선일 경우 가능한 다음 좌표 -> 가로, 대각선, 세로
 
-    static Queue<int[]> queue = new LinkedList<>();                                 // bfs로 탐색하기 위해 queue 생성
     static int count = 0;                                                           // 가능한 경우의 수를 저장 할 변수
 
     public static void main(String[] args) throws Exception {
@@ -34,7 +33,7 @@ public class Solution_17070 {
 
         int[] init = {0, 0, 0, 1, 0};                                               // 초기 파이프 좌표 -> 다섯번 째 수는 모양을 저장하는 수
                                                                                     // 0: 가로, 1: 대각선, 2: 세로
-        solution(init);                                                             // bfs 탐색
+        solution(init);                                                             // 백트래킹 탐색
 
         System.out.print(count);
     }
