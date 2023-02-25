@@ -62,3 +62,4 @@
 
 ![구미_5반-20](https://user-images.githubusercontent.com/81174840/221348134-eb853250-d080-49ce-9d94-aaaa65871e46.jpg)
 
+#### → DFS() 방문순서 체크하는 로직
