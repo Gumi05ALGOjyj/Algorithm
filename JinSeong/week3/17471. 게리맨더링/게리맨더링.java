@@ -14,8 +14,11 @@
         static int min = Integer.MAX_VALUE;
         public static void main(String[] args) throws IOException {
             N = Integer.parseInt(br.readLine());
+            //인구수 저장
             people = new int[N];
+            //선택한 지역 배열
             select= new boolean[N];
+            //방문 배열
             visit = new boolean[N];
             st = new StringTokenizer(br.readLine());
 
@@ -23,11 +26,13 @@
             for(int i=0;i<N; i++){
                 list.add(new ArrayList<>());
                 people[i]=Integer.parseInt(st.nextToken());
+
             }
 
             for(int i=0; i<N; i++){
                 st=new StringTokenizer(br.readLine());
                 int cnt = Integer.parseInt(st.nextToken());
+                //뭐가 연결되어 있는지
                 for(int j=0; j<cnt; j++){
                     list.get(i).add(Integer.parseInt(st.nextToken())-1);
                 }
@@ -42,7 +47,9 @@
         }
         private static void dfs(int cnt){
             if(cnt==N){
+                //선택된 지역
                 List<Integer>alist = new ArrayList<>();
+                //선택되지 않은 지역
                 List<Integer>blist = new ArrayList<>();
 
                 for(int i =0; i<N; i++){
@@ -54,9 +61,11 @@
                     }
 
                 }
+                //만약 하나가 아예 선택되지 않았다면
                 if(alist.size()==0 || blist.size()==0){
                     return;
                 }
+                //리스트들이 연결된 리스트인지 확인
                 if(check(alist) && check(blist)){
                     getPersonDiff();
                 }
@@ -70,6 +79,7 @@
             dfs(cnt+1);
         }
         private static boolean check(List<Integer> lst){
+            //연결리스트 확인 BFS
             Queue<Integer> q = new ArrayDeque<>();
             visit = new boolean[N];
             visit[lst.get(0)]=true;
@@ -77,6 +87,7 @@
             int cnt=1;
             while(!q.isEmpty()){
                 int cur = q.poll();
+                //list에서 연결된 노드가 lst에 있는지 확인
                 for(int i=0; i<list.get(cur).size(); i++){
                     int y = list.get(cur).get(i);
                     if(lst.contains(y) && !visit[y]){
@@ -84,7 +95,6 @@
                         visit[y]=true;
                         cnt++;
                     }
-
                 }
             }
             if(cnt == lst.size()){
@@ -95,6 +105,7 @@
             }
         }
         private static void getPersonDiff(){
+            //인구수 차이 구하기ㅣㅣ
             int sel=0;
             int notSel=0;
             for(int i=0; i<N;i++){
