@@ -74,6 +74,7 @@
  <p>선거구를 선택하는데 백트래킹 사용 / 선택된 선거구들이 연결된지 확인하는데 BFS 사용</br>
  백트래킹으로 다 선택되면 list를 두개 사용해서 선택된 list와 선택되지 않은 list 선언 및 할당</br>
  연결된 리스트인지 확인 - 리스트 하나씩 확인 - 방문 배열을 선언</br>
- ![image](https://user-images.githubusercontent.com/74286424/221398457-fbfc3a79-86fb-4d0e-b52a-4fe63415435b.png)</
+ 
+ ![image](https://user-images.githubusercontent.com/74286424/221398457-fbfc3a79-86fb-4d0e-b52a-4fe63415435b.png)</br>
  이후 인구수 차이 최소 반환
 </p>
