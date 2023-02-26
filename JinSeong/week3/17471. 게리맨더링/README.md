@@ -75,5 +75,5 @@
  백트래킹으로 다 선택되면 list를 두개 사용해서 선택된 list와 선택되지 않은 list 선언 및 할당</br>
  연결된 리스트인지 확인 - 리스트 하나씩 확인 - 방문 배열을 선언</br>
  ![image](https://user-images.githubusercontent.com/74286424/221398329-e2a28e0c-ff6e-4a7b-983e-172118ca47b6.png)
- 이후 인구수 차이 최
+ 이후 인구수 차이 최소 반환
 </p>
