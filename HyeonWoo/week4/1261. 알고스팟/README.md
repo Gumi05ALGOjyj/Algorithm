@@ -1,4 +1,4 @@
-# [Gold Ⅳ] 네트워크 복구 - 1261
+# [Gold Ⅳ] 알고스팟 - 1261
 
 [문제 링크](https://www.acmicpc.net/problem/1261) 
 
