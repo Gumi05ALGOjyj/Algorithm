@@ -32,6 +32,9 @@
 ![image](https://user-images.githubusercontent.com/81174840/224947303-e0347026-dc0e-4296-a08c-d2fcadea71a2.png)
 ### 초반에 접근한 방법 → 이전에 만든 숫자에서 앞에 새로운 숫자(빨간색 숫자)를 붙이는 형식으로 생각했다.
 
+
+*** 
+
 ![image](https://user-images.githubusercontent.com/81174840/224947598-8c64ce8f-81a6-40ac-9bb5-4982ffd39528.png)
 ### dp[i][j] : i라는 수를 j개의 숫자로 만들어서 그 수를 저장한다.
  
