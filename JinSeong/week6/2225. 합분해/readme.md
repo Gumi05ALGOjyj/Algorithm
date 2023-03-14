@@ -26,6 +26,5 @@
 
 ### 문제 풀이
  
- <p>![image](https://user-images.githubusercontent.com/74286424/224911252-f90b5ae3-3347-4a4f-b6e9-fbc4fc5fed7d.png)
-</p>
+ ![image](https://user-images.githubusercontent.com/74286424/224911252-f90b5ae3-3347-4a4f-b6e9-fbc4fc5fed7d.png)
 <p>N의 K의 합분해는 N-1의 K개의 합분해 + N의 K-1개의 합분해 값과 같다</p>
