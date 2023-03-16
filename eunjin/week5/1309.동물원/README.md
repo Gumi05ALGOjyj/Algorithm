@@ -9,4 +9,4 @@
 입력 : 4 -> 출력 : 41
 ![8E75CDA4-8C22-4AB9-9EF9-33E9CC26A69D](https://user-images.githubusercontent.com/98890934/225555900-3bdb1bc4-dd16-4ab6-a3dc-939bccb16264.jpg)
 ### 제출결과
-![동물원_제출결과](https://user-images.githubusercontent.com/98890934/225561275-c2832759-0bef-4754-a127-8bb8729e9373.PNG)
+![동물원_제출결과](https://user-images.githubusercontent.com/98890934/225562719-cb8e5c74-f2b2-4227-b5d4-57626cad9956.PNG)
