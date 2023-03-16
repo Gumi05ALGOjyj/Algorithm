@@ -10,3 +10,5 @@
 2. 6 4 -> 84
 ### 풀이 방법
 ![49D6947C-997D-4929-A3F0-477385203064](https://user-images.githubusercontent.com/98890934/225557840-7e209eb0-38f2-4852-8a88-a72d7bc28a0f.jpg)
+## 결과
+![제출결과](https://user-images.githubusercontent.com/98890934/225561635-3ee8df61-fa3d-4b73-ae50-3db421104ddf.PNG)
