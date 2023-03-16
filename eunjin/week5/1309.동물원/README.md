@@ -7,3 +7,4 @@
 첫째 줄에 사자를 배치하는 경우의 수를 9901로 나눈 나머지를 출력하여라.
 ### 예제 입출력
 입력 : 4 -> 출력 : 41
+![8E75CDA4-8C22-4AB9-9EF9-33E9CC26A69D](https://user-images.githubusercontent.com/98890934/225555900-3bdb1bc4-dd16-4ab6-a3dc-939bccb16264.jpg)
