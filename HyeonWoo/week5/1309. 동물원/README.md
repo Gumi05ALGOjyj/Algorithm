@@ -29,3 +29,10 @@
  <p>첫째 줄에 사자를 배치하는 경우의 수를 9901로 나눈 나머지를 출력하여라.</p>
 
 ### 문제 풀이
+![A74139AF-4B38-406A-BA6B-E7B36547C40D](https://user-images.githubusercontent.com/88186460/225520210-cf7dcf41-d8e2-458e-bb05-35f95a8cdfc2.jpg)
+
+![D68AB545-7875-44B8-BE66-126ADCA6CFE8](https://user-images.githubusercontent.com/88186460/225520441-534f5717-ef4c-4dfc-ab6e-b025a6fce41b.jpg)
+
+![C34B7C89-30BC-4E41-9010-5B4EBD569B08](https://user-images.githubusercontent.com/88186460/225520370-f60b5772-1603-4fa4-9ef6-2ca53c0067ed.jpg)
+
+![84F68CA1-475C-4F02-9FAA-6D6EDBC39BD8](https://user-images.githubusercontent.com/88186460/225520270-fe1647f5-5720-4c91-b179-c6f3fafa2f1a.jpg)
