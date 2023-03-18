@@ -33,5 +33,5 @@
  <p>5+5=10, 5-5는 0에 체크</p>
  <p>각각 0과 10에서 3만큼 조정한 것을 다음 배열에 저장</p>
  <p>마지막 열까지 돌리고 마지막 열에서 최댓값 </p>
- ![image](https://user-images.githubusercontent.com/74286424/226091594-206394bf-3df8-43c4-9728-3157d2734c1a.png)
+ ![image](https://user-images.githubusercontent.com/74286424/226091763-64bafdf5-d068-468e-90a3-b79819d486cd.png)
 
