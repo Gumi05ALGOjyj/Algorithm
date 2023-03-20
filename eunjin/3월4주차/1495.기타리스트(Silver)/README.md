@@ -18,3 +18,5 @@ https://www.acmicpc.net/problem/1495
 
 ## 풀이방법
 M값이 작기 때문에 배열을 만들어서 풀어도 가능하다!
+![C83927F7-5103-459A-AED4-59512768083E](https://user-images.githubusercontent.com/98890934/226290182-b52a7616-5526-4877-9640-64364e566e2b.png)
+
