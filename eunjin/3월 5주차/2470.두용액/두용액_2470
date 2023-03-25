@@ -1,0 +1,61 @@
+import java.io.BufferedReader;
+    import java.io.IOException;
+    import java.io.InputStreamReader;
+    import java.net.Inet4Address;
+    import java.util.Arrays;
+    import java.util.StringTokenizer;
+
+    public class Main {
+        static int N;
+        static int[] nums;
+        static int point1, point2;
+        static StringBuilder sb = new StringBuilder();
+        static int min = 2_000_000_001; //두 수를 뺐을대 최댓값 +1이다.
+
+        public static void main(String[] args) throws IOException {
+            BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+            StringTokenizer st;
+            N= Integer.parseInt(br.readLine());
+            nums = new int[N];
+
+            st = new StringTokenizer(br.readLine());
+            for (int i = 0; i < N; i++) {
+                nums[i] = Integer.parseInt(st.nextToken());
+            }
+            //=======입력 완료======================
+            Arrays.sort(nums);
+            //System.out.println(Arrays.toString(nums));
+
+            point1=0;
+            point2=N-1;
+            //====== 양쪽 끝을 잡아준다.========
+            while (true){ //두 점이 만났으면 경우의 수를 다 한거기 때문에 끝
+                int result=nums[point1]+nums[point2];
+               // System.out.println(nums[point1]+" + "+nums[point2]+" = "+ result);
+
+                if (result == 0) {  //0을 찾으면 종료
+                    sb.setLength(0);
+                    sb.append(nums[point1]+" "+nums[point2]);
+                    break;
+                    //음수이면 더 큰 수를 더해줘야한다.
+                }
+
+
+
+                if(Math.abs(min-0)>Math.abs(result-0)){
+                    //System.out.println(Math.abs(min-0)+"   "+Math.abs(result-0));
+                    sb.setLength(0);
+                    sb.append(nums[point1]+" "+nums[point2]);
+                    min = result;
+                    //System.out.println(sb);
+                }
+
+                if (result < 0) point1+=1;
+                else if(result>0)
+                    point2-=1;   //양수이면 더 작은 수를 더해줘야한다.
+                if(point1==point2) break;
+            }
+
+           System.out.println(sb);
+        }
+    }
