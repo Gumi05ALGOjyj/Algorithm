@@ -78,11 +78,9 @@ public class num2470두용액 {
             }
         }
 
-        if (ans1 < ans2) {
+
             System.out.println(ans1 + " " + ans2);
-        } else {
-            System.out.println(ans2 + " " + ans1);
-        }
+
 
 
     }
