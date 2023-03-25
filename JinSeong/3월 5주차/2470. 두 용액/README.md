@@ -31,4 +31,5 @@
 ![image](https://user-images.githubusercontent.com/74286424/227699509-3810cb7d-bf3c-44dc-8d52-7e6c6131cd61.png)
 
  <p>이분 탐색이 더 느림..</p>
+ 
 ![image](https://user-images.githubusercontent.com/74286424/227699557-2839b453-34da-47eb-9ed5-09b33a243d76.png)
