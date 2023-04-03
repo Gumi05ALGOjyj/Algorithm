@@ -23,7 +23,7 @@
  > > 각 이분탐색의 loop마다 설치 시도 (거리별로 공유기 설치; for 반복문)
  > > > 첫번째 집(homes[0])에는 공유기를 무조건 설치하고 시작 (lastInstalled = 0)
  > > > 설치가 가능하면 (homes[lastInstalled]-homes[i] > mid)
- > > > 공유기를 설치하고 continue (cnt++, lastInstalled=i)
+ >>> 공유기를 설치하고 continue (cnt++, lastInstalled=i)
  > > 공유기 설치가 끝났을 때 cnt>=C라면 이번에 탐색한 거리는 가능한 거리(result=mid)
  > > > 거리를 늘려서 다음 이분탐색(left = mid+1)
  > > 공유기 설치가 끝났을 때 cnt<C라면 이번에 탐색한 거리는 가능한 거리
