@@ -5,10 +5,10 @@
 ## 해결 방법
 ### 비싼가격부터 팔아보기
  - 방법 : 구매희망가 배열 P[]를 내림차순 정렬하여, 높은 가격부터 팔아보기. <br/>ex) P[] = {10, 8, 7, 2}, N=4일 때, 
-<br/>i=1 \▶ sellPrice=10, peopleCnt=1 → profit=10 
-<br/>i=2 \▶ sellPrice=8, peopleCnt=2 → profit=16
-<br/>i=3 \▶ sellPrice=7, peopleCnt=3 → profit=21
-<br/>i=4 \▶ sellPrice=2, peopleCnt=4 → profit=8
+<br/>i=1 ▷ sellPrice=10, peopleCnt=1 → profit=10 
+<br/>i=2 ▷ sellPrice=8, peopleCnt=2 → profit=16
+<br/>i=3 ▷ sellPrice=7, peopleCnt=3 → profit=21
+<br/>i=4 ▷ sellPrice=2, peopleCnt=4 → profit=8
 <br/>여기서 profit의 max값인 21과 해당 연산에서의 사람 수 3을 출력 → "7 21" 출력
 
 ## 결과
