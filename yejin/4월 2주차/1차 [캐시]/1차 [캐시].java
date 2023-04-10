@@ -1,31 +1,37 @@
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
-import java.util.ArrayDeque;
-import java.util.Queue;
+import java.io.*;
+import java.util.*;
 
 class Solution {
     
-	Queue<String> queue = new ArrayDeque<String>();
-
+	
 	public int solution(int cacheSize, String[] cities) {
+
         int answer = 0;
         
-        for(String city : cities) {
-        	String reCity = city.toLowerCase();
+        if(cacheSize == 0) return cities.length*5;
+        
+        Deque<String> dq = new ArrayDeque<String>();
+        
+        String city;
+        for(int i = 0; i<cities.length; i++) {
+        	city = cities[i].toLowerCase();
         	
-        	if(queue.contains(reCity))
+        	if(dq.remove(city)) {
+        		dq.addLast(city);
         		answer += 1;
-        	else
+        	}else {
+        		int size = dq.size();
+        		
+        		if(size == cacheSize) {
+        			dq.removeFirst();
+        		}
+        		
+        		dq.addLast(city);
         		answer += 5;
-        	
-        	if(queue.size() < cacheSize)
-        		queue.offer(reCity);
-        	else {
-        		queue.poll();
-        		queue.offer(reCity);
-        	} 	
+        	}
         }
+        
+        
         return answer;
     }
 }
