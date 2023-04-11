@@ -1,0 +1,17 @@
+-- 가격이 제일 비싼 식품의 정보 출력하기
+SELECT * from food_product order by price desc limit 1;
+
+-- 가장 비싼 상품 구하기
+SELECT max(price) as "MAX_PRICE" from product;
+
+-- 최댓값 구하기
+select datetime as 시간 from animal_ins order by datetime desc limit 1;
+
+-- 최솟값 구하기
+SELECT DATETIME AS 시간 from ANIMAL_INS order by DATETIME Limit 1;
+
+-- 동물 수 구하기
+select count(*) from animal_ins;
+
+-- 중복 제거하기
+select count(distinct name) as count from animal_ins;
