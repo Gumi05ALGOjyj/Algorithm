@@ -11,7 +11,7 @@ order by b.category;
 <br><br>
 
 ## 조건별로 분류하여 주문상태 출력하기
-<br>
+
 #### [문제] https://school.programmers.co.kr/learn/courses/30/lessons/131113
 SELECT order_id, product_id, date_format(out_date,'%Y-%m-%d'), 
 if(out_date is null, '출고미정', 
@@ -23,7 +23,7 @@ from food_order;
 <br><br>
 
 ## 조건에 맞는 사용자와 총 거래금액 조회하기
-<br>
+
 #### [문제]https://school.programmers.co.kr/learn/courses/30/lessons/164668
 select u.user_id, u.nickname, sum(b.price) as 'TOTAL_SALES'
 from used_goods_board b, used_goods_user u
