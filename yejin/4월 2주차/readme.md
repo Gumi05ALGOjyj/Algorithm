@@ -1,5 +1,7 @@
 ## 카테고리 별 도서 판매량 집계하기
+
 <br>
+
 #### [문제] https://school.programmers.co.kr/learn/courses/30/lessons/144855
 SELECT  b.category as 'CATEGORY', sum(bs.sales) as 'TOTAL_SALES'
 from Book b join Book_sales bs
