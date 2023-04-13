@@ -1,15 +1,28 @@
+import java.util.*;
 class Solution {
     public boolean solution(int[][] key, int[][] lock) {
+        int SIZE = lock.length + (key.length-1)*2;
+        int[][] bigLock = new int[SIZE][SIZE];
+         for (int i = 0; i < SIZE; i++) {
+            Arrays.fill(bigLock[i],-1);
+        }
+          for (int i = 0; i < lock.length; i++) {
+            for (int j = 0; j < lock.length; j++) {
+                bigLock[key.length-1+i][key.length-1+j] = lock[i][j];
+            }
+        }
+
         boolean answer = false;
         for(int r=0;r<4;r++){
             if(answer) break;
-            for(int i=0;i<lock.length;i++){
+            for(int i=0;i<bigLock.length-(key.length)+1;i++){
                 if(answer) break;
-                for(int j=0;j<lock.length;j++){
-                    if(!compare(key,lock,i,j)) continue;
-                    answer = true;
-                    //break;
+                for(int j=0;j<bigLock.length-(key.length);j++){
+                    if(!compare(key, bigLock, i,j)) continue;
+                    answer =true;
+                    break;
                 }
+                
             }
             key = rotationKey(key);
         }
@@ -18,32 +31,26 @@ class Solution {
         return answer;
     }
     
-    public  boolean compare(int [][] key, int[][] lock, int x, int y){
-        int purpose = lockCount(lock);
+    public  boolean compare(int [][] key, int [][] bigLock,int startX, int startY){
+        int purpose = lockCount(bigLock);
         int hitCount=0;
+        
         for(int i=0;i<key.length;i++){
             for(int j=0;j<key.length;j++){
-                int curX = x+i;
-                int curY = y+j;
-                if(curX>=key.length || curY>=key.length) continue;
-
-                if(key[i][j]==1 && lock[curX][curY]==0) hitCount++;
-                if(key[i][j]==1 && lock[curX][curY]==1) return false;
-
-
-
+                if(key[i][j]==1 && bigLock[startX+i][startY+j]==1) return false;
+                if(key[i][j]==1 && bigLock[startX+i][startY+j]== 0) hitCount++;
             }
         }
 
-        if(hitCount== purpose ) return true;
-        return false;
+        if(hitCount < purpose ) return false;
+        return true;
     }
     
     
    public  int lockCount(int [][] lock){
         int result=0;
         for(int i=0;i<lock.length;i++){
-            for(int j=0;j<lock[0].length;j++){
+            for(int j=0;j<lock.length;j++){
                 if(lock[i][j]==0) result++;
             }
         }
@@ -56,7 +63,7 @@ class Solution {
 
         for(int i=0;i<key.length;i++){
             for(int j=0;j<key.length;j++){
-                newKey[i][j] = key[j][key.length-i-1];
+                newKey[i][j] = key[key.length-1-j][i];
             }
         }
         return newKey;
