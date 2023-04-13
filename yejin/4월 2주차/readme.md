@@ -1,4 +1,5 @@
 ## 카테고리 별 도서 판매량 집계하기
+<br>
 #### [문제] https://school.programmers.co.kr/learn/courses/30/lessons/144855
 SELECT  b.category as 'CATEGORY', sum(bs.sales) as 'TOTAL_SALES'
 from Book b join Book_sales bs
@@ -6,7 +7,10 @@ where b.book_id = bs.book_id and year(sales_date) = 2022 and month(sales_date) =
 group by b.category
 order by b.category;
 
+<br><br>
+
 ## 조건별로 분류하여 주문상태 출력하기
+<br>
 #### [문제] https://school.programmers.co.kr/learn/courses/30/lessons/131113
 SELECT order_id, product_id, date_format(out_date,'%Y-%m-%d'), 
 if(out_date is null, '출고미정', 
@@ -15,7 +19,10 @@ if(out_date is null, '출고미정',
 from food_order;
 #### → out_date가 null이면 '출고미정' , 날짜가 4월 이하이거나 5월 1일이면 '출고완료', 아니면 '출고대기'
 
+<br><br>
+
 ## 조건에 맞는 사용자와 총 거래금액 조회하기
+<br>
 #### [문제]https://school.programmers.co.kr/learn/courses/30/lessons/164668
 select u.user_id, u.nickname, sum(b.price) as 'TOTAL_SALES'
 from used_goods_board b, used_goods_user u
