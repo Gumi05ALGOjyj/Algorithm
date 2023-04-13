@@ -1,0 +1,7 @@
+### 카테고리 별 도서 판매량 집계하기
+
+SELECT  b.category as 'CATEGORY', sum(bs.sales) as 'TOTAL_SALES'
+from Book b join Book_sales bs
+where b.book_id = bs.book_id and year(sales_date) = 2022 and month(sales_date) = 1
+group by b.category
+order by b.category;
