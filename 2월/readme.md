@@ -1,8 +1,10 @@
-## 📌 2월 알고리즘
+# 📌 2월 알고리즘
 
-### 1. Fork
+## 1. Fork
 ![image](https://user-images.githubusercontent.com/81174840/232497886-0f139681-189d-432e-bd6d-528d1eabf31e.png)
 #### → Fork를 통해 개인 repository로 파일을 가져온다.
+
+***
 
 ![image](https://user-images.githubusercontent.com/81174840/232492654-ed0a1426-03ff-4b33-be58-380a3124faa7.png)
 
