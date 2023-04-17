@@ -30,7 +30,7 @@ public class Solution {
                 //
                 turn++;
                 char c = charsToBeSpoken.poll();
-                //튜브의 차례일 시 저장하고 cnt++.
+                //튜브의 차례일 시 저장하고 count++.
                 if((turn%m)+1==p) {
                     sb.append(c);
                     cnt++;
