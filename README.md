@@ -12,8 +12,11 @@
 #### → 개인 repository에서 m월/문제의 번호.이름/자신의 이름/문제.java 또는 readme.md
 
 ![image](https://user-images.githubusercontent.com/81174840/232508131-a40c7324-f633-4312-b2d7-bac99626507f.png)
-#### commit 규칙 : [문제 출처] 문제이름 / 난이도 / 걸린시간
-#### Ex) [BOJ] 신입 사원 / 실버1 / 1h 30m
+
+```
+commit 규칙 : [문제 출처] 문제이름 / 난이도 / 걸린시간
+Ex) [BOJ] 신입 사원 / 실버1 / 1h 30m
+```
 
 ![image](https://user-images.githubusercontent.com/81174840/232509160-69721b98-1473-4e54-8d5b-463a3c12bd64.png)
 #### [New Pull Request] 버튼을 누른다.
@@ -28,6 +31,7 @@
 
 ![image](https://user-images.githubusercontent.com/81174840/232494660-cd26d67b-109e-4420-b0d2-b71a14e5440a.png)
 
+```
 본인 이름 / n월 m주차 / 문제 출처 / 문제 이름
 Ex) YehJin Jung / 4월 1주차 / BOJ / 신입 사원
 
@@ -36,4 +40,10 @@ Ex) YehJin Jung / 4월 1주차 / BOJ / 신입 사원
 [PGS] - 프로그래머스
 [SWEA] - 삼성SW Expert Academy
 [ETC] - 그외
+
+```
+
+
+![image](https://user-images.githubusercontent.com/81174840/232520581-fa80fbb4-4349-4528-a54b-d3f6586dcfc5.png)
+#### → organization 에서 개인 repository에서 올린 pull Request를 볼 수 있다.
  
