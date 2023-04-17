@@ -22,7 +22,7 @@ class Solution {
 		// Left 채우기 / Right 채우기 / Bottom 채우기
 		for (int i = 0; i < m; i++) {
 			for (int j = 0; j < m; j++) {
-				left[m - j - 1][i] = key[i][j]; // 오른쪽으로 270도 돌리기
+				left[m - 1 - j][i] = key[i][j]; // 오른쪽으로 270도 돌리기
 				right[j][m - 1 - i] = key[i][j]; // 오른쪽으로 90도 돌리기
 				bottom[m - 1 - i][m - 1 - j] = key[i][j]; // 오른쪽으로 180도 돌리기
 			}
