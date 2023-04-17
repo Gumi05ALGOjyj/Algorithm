@@ -6,6 +6,20 @@
 
 ***
 
+## 2. Pull Request
+
+![image](https://user-images.githubusercontent.com/81174840/232507340-b985f9d0-e94a-4d77-a8ca-45380d43621b.png)
+#### → 개인 repository에서 m월/문제의 번호.이름/자신의 이름/문제.java 또는 readme.md
+
+![image](https://user-images.githubusercontent.com/81174840/232508131-a40c7324-f633-4312-b2d7-bac99626507f.png)
+#### commit 규칙 : [문제 출처] 문제이름 / 난이도 / 걸린시간
+#### Ex) [BOJ] 신입 사원 / 실버1 / 1h 30m
+
+![image](https://user-images.githubusercontent.com/81174840/232509160-69721b98-1473-4e54-8d5b-463a3c12bd64.png)
+#### [New Pull Request] 버튼을 누른다.
+
+
+
 ![image](https://user-images.githubusercontent.com/81174840/232492654-ed0a1426-03ff-4b33-be58-380a3124faa7.png)
 
 ![image](https://user-images.githubusercontent.com/81174840/232492855-4f776539-7a63-47be-a398-b2c201d86dc2.png)
