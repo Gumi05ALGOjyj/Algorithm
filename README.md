@@ -1,4 +1,4 @@
-# 📌 2월 알고리즘
+# 📌 알고리즘
 
 ## 1. Fork
 ![image](https://user-images.githubusercontent.com/81174840/232497886-0f139681-189d-432e-bd6d-528d1eabf31e.png)
