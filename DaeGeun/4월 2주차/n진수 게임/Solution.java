@@ -23,7 +23,7 @@ public class Solution {
           //1,0,1을 번갈아가면서 다 말했다면 외부 반복문으로 빠져나감.
           //외부반복문은 currentNumber를 6으로 만들고 putCharacterInTheQueue함수를 통해 큐에 6의 이진수 1,1,0을 순서대로 삽입
       
-        loop: //BF작시작
+        loop: //BFS시작
         while(true) {
             putCharactersInTheQueue(currentNumber, n);
             while(!charsToBeSpoken.isEmpty()) {
