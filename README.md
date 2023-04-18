@@ -1,5 +1,15 @@
 # 📌 알고리즘
 
+<details><summary>:paperclip: 4월 문제집</summary>
+
+|주차|1|2|3|4|5|6|7|
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+|1주차<br> (04.03 ~ 04.09)| [온라인 판매](https://www.acmicpc.net/problem/1246) | [공유기 설치](https://www.acmicpc.net/problem/2110) |[센서](https://www.acmicpc.net/problem/2212) | [입국심사](https://www.acmicpc.net/problem/3079) |
+|2주차<br> (04.10 ~ 04.16)|[캐시](https://school.programmers.co.kr/learn/courses/30/lessons/17680?language=java) |[N진수 게임](https://school.programmers.co.kr/learn/courses/30/lessons/17687) |[자물쇠와 열쇠](https://school.programmers.co.kr/learn/courses/30/lessons/60059) |[합승 택시 요금](https://school.programmers.co.kr/learn/courses/30/lessons/72413) |[조건별로 분류하여 주문상태 출력하기](https://school.programmers.co.kr/learn/courses/30/lessons/131113?language=mysql) |[카테고리 별 도서 판매량 집계하기](https://school.programmers.co.kr/learn/courses/30/lessons/144855) |[조건에 맞는 사용자와 총 거래금액 조회하기](https://school.programmers.co.kr/learn/courses/30/lessons/164668) |
+ |2주차<br> (04.17 ~ 04.23)|[뉴스 클러스터링](https://school.programmers.co.kr/learn/courses/30/lessons/17677) | [불량 사용자](https://school.programmers.co.kr/learn/courses/30/lessons/64064) | [보석 쇼핑](https://school.programmers.co.kr/learn/courses/30/lessons/67258) | [오랜 기간 보호한 동물1](https://school.programmers.co.kr/learn/courses/30/lessons/59044) | [있었는데요 없었습니다](https://school.programmers.co.kr/learn/courses/30/lessons/59043) | [오랜 기간 보호한 동물2](https://school.programmers.co.kr/learn/courses/30/lessons/59411) |
+
+</details>
+
 ## 1. Fork
 ![image](https://user-images.githubusercontent.com/81174840/232497886-0f139681-189d-432e-bd6d-528d1eabf31e.png)
 #### → Fork를 통해 개인 repository로 파일을 가져온다.
@@ -67,12 +77,4 @@ Ex) YehJin Jung / 4월 1주차 / BOJ / 신입 사원
 ![image](https://user-images.githubusercontent.com/81174840/232520581-fa80fbb4-4349-4528-a54b-d3f6586dcfc5.png)
 #### → organization 에서 개인 repository에서 올린 pull Request를 볼 수 있다.
  
-<details><summary>:paperclip: 4월 문제집</summary>
 
-|주차|1|2|3|4|5|6|7|
-|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-|1주차<br> (04.03 ~ 04.09)| [온라인 판매](https://www.acmicpc.net/problem/1246) | [공유기 설치](https://www.acmicpc.net/problem/2110) |[센서](https://www.acmicpc.net/problem/2212) | [입국심사](https://www.acmicpc.net/problem/3079) |
-|2주차<br> (04.10 ~ 04.16)|[캐시](https://school.programmers.co.kr/learn/courses/30/lessons/17680?language=java) |[N진수 게임](https://school.programmers.co.kr/learn/courses/30/lessons/17687) |[자물쇠와 열쇠](https://school.programmers.co.kr/learn/courses/30/lessons/60059) |[합승 택시 요금](https://school.programmers.co.kr/learn/courses/30/lessons/72413) |[조건별로 분류하여 주문상태 출력하기](https://school.programmers.co.kr/learn/courses/30/lessons/131113?language=mysql) |[카테고리 별 도서 판매량 집계하기](https://school.programmers.co.kr/learn/courses/30/lessons/144855) |[조건에 맞는 사용자와 총 거래금액 조회하기](https://school.programmers.co.kr/learn/courses/30/lessons/164668) |
- |2주차<br> (04.17 ~ 04.23)|[뉴스 클러스터링](https://school.programmers.co.kr/learn/courses/30/lessons/17677) | [불량 사용자](https://school.programmers.co.kr/learn/courses/30/lessons/64064) | [보석 쇼핑](https://school.programmers.co.kr/learn/courses/30/lessons/67258) | [오랜 기간 보호한 동물1](https://school.programmers.co.kr/learn/courses/30/lessons/59044) | [있었는데요 없었습니다](https://school.programmers.co.kr/learn/courses/30/lessons/59043) | [오랜 기간 보호한 동물2](https://school.programmers.co.kr/learn/courses/30/lessons/59411) |
-
-</details>
