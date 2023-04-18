@@ -67,3 +67,11 @@ Ex) YehJin Jung / 4월 1주차 / BOJ / 신입 사원
 ![image](https://user-images.githubusercontent.com/81174840/232520581-fa80fbb4-4349-4528-a54b-d3f6586dcfc5.png)
 #### → organization 에서 개인 repository에서 올린 pull Request를 볼 수 있다.
  
+<details><summary>:paperclip: 4월 문제집</summary>
+
+|주차|1|2|3|4|5|
+|:---:|:---:|:---:|:---:|:---:|:---:|
+|1주차<br> (03.02 ~ 03.08)|점프|어른 상어|색종이 붙이기|게리맨더링 2|직사각형|
+|2주차<br> (03.09 ~ 03.15)|멀쩡한 사각형|택배상자|코딩테스트 공부|등산코스 정하기|방금그곡|
+
+</details>
