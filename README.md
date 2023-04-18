@@ -71,7 +71,7 @@ Ex) YehJin Jung / 4월 1주차 / BOJ / 신입 사원
 
 |주차|1|2|3|4|5|
 |:---:|:---:|:---:|:---:|:---:|:---:|
-|1주차<br> (03.02 ~ 03.08)| [온라인 판매] (https://www.acmicpc.net/problem/1246) | [공유기 설치] (https://www.acmicpc.net/problem/2110) | [센서] (https://www.acmicpc.net/problem/2212) | [입국심사] (https://www.acmicpc.net/problem/3079) |
+|1주차<br> (03.02 ~ 03.08)| [온라인 판매](https://www.acmicpc.net/problem/1246) | [공유기 설치](https://www.acmicpc.net/problem/2110) |[센서] (https://www.acmicpc.net/problem/2212) | [입국심사](https://www.acmicpc.net/problem/3079) |
 |2주차<br> (03.09 ~ 03.15)|멀쩡한 사각형|택배상자|코딩테스트 공부|등산코스 정하기|방금그곡|
 
 </details>
