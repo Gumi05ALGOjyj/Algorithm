@@ -1,4 +1,4 @@
-# 📌 알고리즘
+## 📌 알고리즘
 
 <details><summary>:paperclip: 4월 문제집</summary>
 
