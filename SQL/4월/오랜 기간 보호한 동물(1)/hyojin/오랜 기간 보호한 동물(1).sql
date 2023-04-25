@@ -6,7 +6,6 @@ order by ins.datetime asc
 limit 3;
 
 
-
 -- 동물 보호소에 들어온 동물의 정보(전체 동물)에 입양 보낸 동물의 정보를 join
 -- 들어온 동물들 전체 리스트에 입양 보내진 애들한테만 입양 보낸 정보가 붙음
 -- 둘이 column이 animal_id로 중복되므로 using
