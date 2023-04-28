@@ -26,7 +26,7 @@
 
 |주차|1|2|3|
 |:---:|:---:|:---:|:---:|
-|1주차<br> (04.27 ~ 05.04)| [두 큐 합 같게 만들기](https://school.programmers.co.kr/learn/courses/30/lessons/118667) | [징검다리 건너기](https://school.programmers.co.kr/learn/courses/30/lessons/64062) |[프렉탈 평면](https://www.acmicpc.net/problem/1030)
+|1주차<br> (04.28 ~ 05.04)| [두 큐 합 같게 만들기](https://school.programmers.co.kr/learn/courses/30/lessons/118667) | [징검다리 건너기](https://school.programmers.co.kr/learn/courses/30/lessons/64062) |[프렉탈 평면](https://www.acmicpc.net/problem/1030)
 
 </details>
 
@@ -35,8 +35,10 @@
 
 |주차|1|2|3|
 |:---:|:---:|:---:|:---:|
-|1주차<br> (04.27 ~ 05.04)| [즐겨찾기가 가장 많은 식당 정보 출력하기](https://school.programmers.co.kr/learn/courses/30/lessons/131123) | [대여 기록이 존재하는 자동차 리스트 구하기](https://school.programmers.co.kr/learn/courses/30/lessons/157341) |[조건에 맞는 사용자 정보 조회하기](https://school.programmers.co.kr/learn/courses/30/lessons/164670)
- 
+|1주차<br> (04.28 ~ 05.04)| [즐겨찾기가 가장 많은 식당 정보 출력하기](https://school.programmers.co.kr/learn/courses/30/lessons/131123) | [대여 기록이 존재하는 자동차 리스트 구하기](https://school.programmers.co.kr/learn/courses/30/lessons/157341) |[조건에 맞는 사용자 정보 조회하기](https://school.programmers.co.kr/learn/courses/30/lessons/164670)
+ |2주차<br> (05.05 ~ 05.11)| [헤비 유저가 소유한 장소](https://school.programmers.co.kr/learn/courses/30/lessons/77487) | [자동차 대여 기록에서 대여중/대여 가능 여부 구분하기](https://school.programmers.co.kr/learn/courses/30/lessons/157340) |[대여 횟수가 많은 자동차들의 월별 대여 횟수 구하기](https://school.programmers.co.kr/learn/courses/30/lessons/151139)
+  |3주차<br> (05.12 ~ 05.18)| [조회수가 가장 많은 중고거래 게시판의 첨부파일 조회하기](https://school.programmers.co.kr/learn/courses/30/lessons/164671) | [5월 식품들의 총매출 조회하기](https://school.programmers.co.kr/learn/courses/30/lessons/131117) |[식품분류별 가장 비싼 식품의 정보 조회하기](https://school.programmers.co.kr/learn/courses/30/lessons/131116)
+   |4주차<br> (05.19 ~ 05.25)| [서울에 위치한 식당 목록 출력하기](https://school.programmers.co.kr/learn/courses/30/lessons/131118) | [년, 월, 성별 별 상품 구매 회원 수 구하기](https://school.programmers.co.kr/learn/courses/30/lessons/131532) |[우유와 요거트가 담긴 장바구니](https://school.programmers.co.kr/learn/courses/30/lessons/62284)
 
 </details>
 
