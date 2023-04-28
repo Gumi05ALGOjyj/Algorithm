@@ -27,6 +27,9 @@
 |주차|1|2|3|
 |:---:|:---:|:---:|:---:|
 |1주차<br> (04.28 ~ 05.04)| [두 큐 합 같게 만들기](https://school.programmers.co.kr/learn/courses/30/lessons/118667) | [징검다리 건너기](https://school.programmers.co.kr/learn/courses/30/lessons/64062) |[프렉탈 평면](https://www.acmicpc.net/problem/1030)
+ |2주차<br> (05.05 ~ 05.11)| [괄호 변환](https://school.programmers.co.kr/learn/courses/30/lessons/60058) | [경주로 건설](https://school.programmers.co.kr/learn/courses/30/lessons/67259) |[거짓말](https://www.acmicpc.net/problem/1043)
+ |3주차<br> (05.12 ~ 05.18)| [후보키](https://school.programmers.co.kr/learn/courses/30/lessons/42890) | [[1차] 셔틀버스](https://school.programmers.co.kr/learn/courses/30/lessons/17678) |[웜홀](https://www.acmicpc.net/problem/1865)
+ |4주차<br> (05.19 ~ 05.25)| [순위 검색](https://school.programmers.co.kr/learn/courses/30/lessons/72412) | [길 찾기 게임](https://school.programmers.co.kr/learn/courses/30/lessons/42892) |[가장 긴 바이토닉 부분 수열](https://www.acmicpc.net/problem/11054)
 
 </details>
 
