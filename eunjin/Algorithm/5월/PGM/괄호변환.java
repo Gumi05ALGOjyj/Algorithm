@@ -1,14 +1,14 @@
 import java.util.*;
 import java.io.*;
 class Solution {
-    static StringBuilder sb = new StringBuilder();
+    //static StringBuilder sb = new StringBuilder();
     public String solution(String p) {
         //1. 입력이 빈 문자열일 경우, 빈 문자열 반환
         if(p.length()==0) return "";
         
-       process(p);
+      
        
-       return sb.toString();
+       return  process(p);
     }
     //STEP2. 문자열을 두 균형잡힌 문자열로 분리
     public String[] seperateString(String p){
@@ -49,23 +49,23 @@ class Solution {
     
     public String process(String str){
         System.out.print(str.length()+"\n");
-        String result = "";
-        if(str.length()==0) return result;
+        if(str.length()==0) return "";
         String [] strs = seperateString(str);
         if(isCorrectString(strs[0])){
-            sb.append(strs[0]);
-            return process(strs[1]);
+            //sb.append(strs[0]);
+            return strs[0]+process(strs[1]);
         }else{
             //빈 문자열에 첫 번째 문자로 (을 붙인다.
-            result = "(";
+            String result = "(";
             //문자열 v에 대해 1단계 부터 재귀적으로 수행한 결과 문자열을 이어 붙인다. 
             String add = process(strs[1]);
             result +=add;
             result+=")";
             
-            sb.append(edit(result));
+            //sb.append(edit(strs[0]));
+            return (result+edit(strs[0]));
         }
-        return process(strs[1]);
+       
     }
     
     public String edit(String str){
