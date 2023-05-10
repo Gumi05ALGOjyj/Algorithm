@@ -1,5 +1,3 @@
-자동차 대여 기록에서 대여중 or 대여 가능 여부 구분하기
-
 select car_id, 
     case when car_id IN(
         select car_id from CAR_RENTAL_COMPANY_RENTAL_HISTORY where '2022-10-16' between date_format(start_date, '%Y-%m-%d')         and date_format(end_date, '%Y-%m-%d')
