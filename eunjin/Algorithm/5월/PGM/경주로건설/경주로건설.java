@@ -1,5 +1,5 @@
 import java.util.*;
-class Solution {
+class Solution {    
     static final int INF = (int)2e9;
     //방향 번호 : 상 = 0, 좌=1, 하 = 2, 우 = 3
     
