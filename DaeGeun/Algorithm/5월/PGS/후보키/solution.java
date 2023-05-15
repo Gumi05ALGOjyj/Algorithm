@@ -79,7 +79,7 @@ class Solution {
         for(int row=0;row<MAXROW;row++){
             tmp = new StringBuilder();
 
-            //투플 구성
+            //인덱스 기반으로 투플 구성
             for(int i=0;i<compIndex.length;i++){
                 tmp.append(" "+relation[row][compIndex[i]]);
             }
