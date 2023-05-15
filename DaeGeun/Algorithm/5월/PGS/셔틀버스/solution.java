@@ -1,4 +1,5 @@
 import java.util.*;
+//https://school.programmers.co.kr/learn/courses/30/lessons/17678
 class Solution {
     static int arriveIndex;
     public String solution(int n, int t, int m, String[] timetable) {
