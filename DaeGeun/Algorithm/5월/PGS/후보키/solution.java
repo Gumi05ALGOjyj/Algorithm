@@ -10,42 +10,44 @@ class Solution {
   
     public int solution(String[][] relation) {
     //전역변수 초기화
-		MAXROW = relation.length;
-		MAXCOL = relation[0].length;
-    keyList = new ArrayList<>(); //후보키가 들어갈 리스트
+	MAXROW = relation.length;
+	MAXCOL = relation[0].length;
+	keyList = new ArrayList<>(); //후보키가 들어갈 리스트
 
-		int unusedCol = MAXCOL;
-		int[] compIndex;
+	int unusedCol = MAXCOL;
+	int[] compIndex;
         //STEP 1) 1개 ~ COLMAX개 만큼의 열을 조합하여 후보키인지 판단할 키를 구성 (조합)
             // 0, 1, 2, 3, 01, 02, 03, 12, ... , 0123
-		for (int compNum = 1; compNum <= unusedCol && compNum <= MAXCOL; compNum++) {
+	for (int compNum = 1; compNum <= unusedCol && compNum <= MAXCOL; compNum++) {
             compIndex = new int[compNum];
             comb(0, compIndex, 0, relation);
-		}
-		return keyList.size();
+	}
+	return keyList.size();
     }
 
     //조합을 재귀적으로 구성하는 반복문 (STEP1)
     private static void comb(int col, int[] compIndex, int cnt, String[][] relation){
-		if (cnt == compIndex.length) { //조합구성이 완료된 경우
+    	//compIndex에 조합구성이 완료된 경우
+	if (cnt == compIndex.length) { 
             StringBuilder tmp = new StringBuilder();
+	    //compIndex 배열화
             for(int i=0;i<compIndex.length;i++) tmp.append(" "+compIndex[i]);
+	    //STEP 2) 일시적으로 구성해본 키가 최소성을 만족하는지 검사
             for(int i=0;i<keyList.size();i++){
-                //STEP 2) 일시적으로 구성해본 키가 최소성을 만족하는지 검사
-                if(!checkMinimality(tmp.toString(),keyList.get(i))){ //일시적으로 구성한 키가 최소성 만족 x
-                    return;
+                if(!checkMinimality(tmp.toString(),keyList.get(i))){ 
+                    return; //최소성 만족 x -> 조합구성 취소
                 } 
             }
             //STEP 3) 최소성이 만족되면 유일성을 만족하는지 검사
-			findCandidateKey(tmp.toString(), compIndex, relation);
-			return;
-		}
+		findCandidateKey(tmp.toString(), compIndex, relation);
+		return;
+	    }
 
         //조합 구성 재귀
         for (int i = col; i < MAXCOL; i++) {
-			compIndex[cnt] = i;
-			comb(i + 1, compIndex, cnt + 1, relation);
-		}
+	    compIndex[cnt] = i;
+	    comb(i + 1, compIndex, cnt + 1, relation);
+	}
     }
     
     //최소성을 만족하는지 검사 (STEP2)  
