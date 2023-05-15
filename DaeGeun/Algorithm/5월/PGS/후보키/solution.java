@@ -1,5 +1,5 @@
 import java.util.*;
-
+//https://school.programmers.co.kr/learn/courses/30/lessons/42890
 //STEP 1) 1개 ~  만큼의 열을 조합하여 모든 경우의 수에 대해 임시 키 구성 (조합)
 //STEP 2) 일시적으로 구성해본 키가 최소성을 만족하는지 검사
 //STEP 3) 최소성이 만족되면 유일성을 만족하는지 검사
